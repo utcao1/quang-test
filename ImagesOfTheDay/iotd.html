@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Images Of The Day</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="library/jquery-3.4.1.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="library/jquery-3.4.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="library/library_jquery.js"
+    ></script>
+    <script type="text/javascript" src="iotd.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/font-awesome.css" />
+    <link rel="stylesheet" href="iotd.css" />
+  </head>
+  <body>
+    
+    <div id="myBtnContainer">
+		<h3>IMAGES OF THE DAY</h3>
+      <button class="btn active" onclick="filterSelection('all')">Show all</button>
+      <button class="btn" onclick="filterSelection('mercury')">Mercury</button>
+      <button class="btn" onclick="filterSelection('venus')">Venus</button>
+      <button class="btn" onclick="filterSelection('earth')">Earth</button>
+      <button class="btn" onclick="filterSelection('mars')">Mars</button>
+      <button class="btn" onclick="filterSelection('jupiter')">Jupiter</button>
+      <button class="btn" onclick="filterSelection('saturn')">Saturn</button>
+      <button class="btn" onclick="filterSelection('uranus')">Uranus</button>
+      <button class="btn" onclick="filterSelection('neptune')">Neptune</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column mercury">
+        <div class="content">
+          <img src="images/1.jpg" alt="Mercury" style="width: 100%" />
+          <hr>
+          <h4>Mercury 1</h4>
+        </div>
+      </div>
+      <div class="column mercury">
+        <div class="content">
+          <img src="images/2.jpg" alt="Mercury" style="width: 100%" />
+          <hr>
+          <h4>Mercury 2</h4>
+        </div>
+      </div>
+      <div class="column mercury">
+        <div class="content">
+          <img src="images/3.jpg" alt="Mercury" style="width: 100%" />
+          <hr>
+          <h4>Mercury 3</h4>
+        </div>
+      </div>
+      <div class="column mercury">
+        <div class="content">
+          <img src="images/4.jpg" alt="Mercury" style="width: 100%" />
+          <hr>
+          <h4>Mercury 4</h4>
+        </div>
+      </div>
+      <div class="column mercury">
+        <div class="content">
+          <img src="images/5.jpg" alt="Mercury" style="width: 100%" />
+          <hr>
+          <h4>Mercury 5</h4>
+        </div>
+      </div>
+      <div class="column venus">
+        <div class="content">
+          <img src="images/6.jpg" alt="Venus" style="width: 100%" />
+          <hr>
+          <h4>Venus 1</h4>
+        </div>
+      </div>
+      <div class="column venus">
+        <div class="content">
+          <img src="images/7.jpg" alt="Venus" style="width: 100%" />
+          <hr>
+          <h4>Venus 2</h4>
+        </div>
+      </div>
+      <div class="column venus">
+        <div class="content">
+          <img src="images/8.jpg" alt="Venus" style="width: 100%" />
+          <hr>
+          <h4>Venus 3</h4>
+        </div>
+      </div>
+      <div class="column venus">
+        <div class="content">
+          <img src="images/9.jpg" alt="Venus" style="width: 100%" />
+          <hr>
+          <h4>Venus 4</h4>
+        </div>
+      </div>
+      <div class="column venus">
+        <div class="content">
+          <img src="images/10.jpg" alt="Venus" style="width: 100%" />
+          <hr>
+          <h4>Venus 5</h4>
+        </div>
+      </div>
+      <div class="column earth">
+        <div class="content">
+          <img src="images/11.jpg" alt="Earth" style="width: 100%" />
+          <hr>
+          <h4>Earth 1</h4>
+        </div>
+      </div>
+      <div class="column earth">
+        <div class="content">
+          <img src="images/12.jpg" alt="Earth" style="width: 100%" />
+          <hr>
+          <h4>Earth 2</h4>
+        </div>
+      </div>
+      <div class="column earth">
+        <div class="content">
+          <img src="images/13.jpg" alt="Earth" style="width: 100%" />
+          <hr>
+          <h4>Earth 3</h4>
+        </div>
+      </div>
+      <div class="column earth">
+        <div class="content">
+          <img src="images/14.jpg" alt="Earth" style="width: 100%" />
+          <hr>
+          <h4>Earth 4</h4>
+        </div>
+      </div>
+      <div class="column earth">
+        <div class="content">
+          <img src="images/15.jpg" alt="Earth" style="width: 100%" />
+          <hr>
+          <h4>Earth 5</h4>
+        </div>
+      </div>
+      <div class="column mars">
+        <div class="content">
+          <img src="images/16.jpg" alt="Mars" style="width: 100%" />
+          <hr>
+          <h4>Mar 1</h4>
+        </div>
+      </div>
+      <div class="column mars">
+        <div class="content">
+          <img src="images/17.jpg" alt="Mars" style="width: 100%" />
+          <hr>
+          <h4>Mar 2</h4>
+        </div>
+      </div>
+      <div class="column mars">
+        <div class="content">
+          <img src="images/18.jpg" alt="Mars" style="width: 100%" />
+          <hr>
+          <h4>Mar 3</h4>
+        </div>
+      </div>
+      <div class="column mars">
+        <div class="content">
+          <img src="images/19.jpg" alt="Mars" style="width: 100%" />
+          <hr>
+          <h4>Mar 4</h4>
+        </div>
+      </div>
+      <div class="column mars">
+        <div class="content">
+          <img src="images/20.jpg" alt="Mars" style="width: 100%" />
+          <hr>
+          <h4>Mar 5</h4>
+        </div>
+      </div>
+      <div class="column jupiter">
+        <div class="content">
+          <img src="images/21.jpg" alt="Jupiter" style="width: 100%" />
+          <hr>
+          <h4>Jupiter 1</h4>
+        </div>
+      </div>
+      <div class="column jupiter">
+        <div class="content">
+          <img src="images/22.jpg" alt="Jupiter" style="width: 100%" />
+          <hr>
+          <h4>Jupiter 2</h4>
+        </div>
+      </div>
+      <div class="column jupiter">
+        <div class="content">
+          <img src="images/23.jpg" alt="Jupiter" style="width: 100%" />
+          <hr>
+          <h4>Jupiter 3</h4>
+        </div>
+      </div>
+      <div class="column jupiter">
+        <div class="content">
+          <img src="images/24.jpg" alt="Jupiter" style="width: 100%" />
+          <hr>
+          <h4>Jupiter 4</h4>
+        </div>
+      </div>
+
+      <div class="column jupiter">
+        <div class="content">
+          <img src="images/25.jpg" alt="Jupiter" style="width: 100%" />
+          <hr>
+          <h4>Jupiter 5</h4>
+        </div>
+      </div>
+      <div class="column saturn">
+        <div class="content">
+          <img src="images/26.jpg" alt="Saturn" style="width: 100%" />
+          <hr>
+          <h4>Saturn 1</h4>
+        </div>
+      </div>
+      <div class="column saturn">
+        <div class="content">
+          <img src="images/27.jpg" alt="Saturn" style="width: 100%" />
+          <hr>
+          <h4>Saturn 2</h4>
+        </div>
+      </div>
+      <div class="column saturn">
+        <div class="content">
+          <img src="images/28.jpg" alt="Saturn" style="width: 100%" />
+          <hr>
+          <h4>Saturn 3</h4>
+        </div>
+      </div>
+      <div class="column saturn">
+        <div class="content">
+          <img src="images/29.jpg" alt="Saturn" style="width: 100%" />
+          <hr>
+          <h4>Saturn 4</h4>
+        </div>
+      </div>
+      <div class="column saturn">
+        <div class="content">
+          <img src="images/30.jpg" alt="Saturn" style="width: 100%" />
+          <hr>
+          <h4>Saturn 5</h4>
+        </div>
+      </div>
+      <div class="column uranus">
+        <div class="content">
+          <img src="images/31.jpg" alt="Uranus" style="width: 100%" />
+          <hr>
+          <h4>Uranus 1</h4>
+        </div>
+      </div>
+      <div class="column uranus">
+        <div class="content">
+          <img src="images/32.jpg" alt="Uranus" style="width: 100%" />
+          <hr>
+          <h4>Uranus 2</h4>
+        </div>
+      </div>
+
+      <div class="column uranus">
+        <div class="content">
+          <img src="images/33.jpg" alt="Uranus" style="width: 100%" />
+          <hr>
+          <h4>Uranus 3</h4>
+        </div>
+      </div>
+      <div class="column uranus">
+        <div class="content">
+          <img src="images/34.jpg" alt="Uranus" style="width: 100%" />
+          <hr>
+          <h4>Uranus 4</h4>
+        </div>
+      </div>
+      <div class="column uranus">
+        <div class="content">
+          <img src="images/35.jpg" alt="Uranus" style="width: 100%" />
+          <hr>
+          <h4>Uranus 5</h4>
+        </div>
+      </div>
+      <div class="column neptune">
+        <div class="content">
+          <img src="images/36.jpg" alt="Neptune" style="width: 100%" />
+          <hr>
+          <h4>Neptune 1</h4>
+        </div>
+      </div>
+      <div class="column neptune">
+        <div class="content">
+          <img src="images/37.jpg" alt="Neptune" style="width: 100%" />
+          <hr>
+          <h4>Neptune 2</h4>
+        </div>
+      </div>
+      <div class="column neptune">
+        <div class="content">
+          <img src="images/38.jpg" alt="Neptune" style="width: 100%" />
+          <hr>
+          <h4>Neptune 3</h4>
+        </div>
+      </div>
+      <div class="column neptune">
+        <div class="content">
+          <img src="images/39.jpg" alt="Neptune" style="width: 100%" />
+          <hr>
+          <h4>Neptune 4</h4>
+        </div>
+      </div>
+      <div class="column neptune">
+        <div class="content">
+          <img src="images/40.jpg" alt="Neptune" style="width: 100%" />
+          <hr>
+          <h4>Neptune 5</h4>
+        </div>
+      </div>
+
+      <!-- END GRID -->
+    </div>
+  </body>
+</html>
